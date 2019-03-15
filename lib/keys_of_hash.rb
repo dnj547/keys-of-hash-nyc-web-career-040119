@@ -2,8 +2,8 @@ require 'pry'
 class Hash
   def keys_of(**arguments)
     self.each do |key, value|
-      binding.pry
       if fetch(key) == arguments
+        binding.pry
         return fetch(key)
       end
     end
