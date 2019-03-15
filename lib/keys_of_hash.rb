@@ -7,8 +7,8 @@ class Hash
         if value == argument
           matching_keys << key
         end
-        return matching_keys
       end
+      return matching_keys
     end
   end
 end
