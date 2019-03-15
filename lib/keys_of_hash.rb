@@ -9,5 +9,6 @@ class Hash
         end
       end
     end
+    matching_keys
   end
 end
