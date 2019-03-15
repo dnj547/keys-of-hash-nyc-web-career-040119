@@ -6,8 +6,8 @@ class Hash
       arguments.each do |argument|
         if value == argument
           matching_keys << key
-          return matching_keys
         end
+        return matching_keys
       end
     end
   end
