@@ -10,4 +10,5 @@ class Hash
       end
     end
   end
+  return matching_keys
 end
