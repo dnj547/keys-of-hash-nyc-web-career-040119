@@ -6,6 +6,6 @@ class Hash
         return fetch(key)
       end
     end
-    binding.pry
   end
+  binding.pry
 end
