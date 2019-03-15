@@ -8,7 +8,6 @@ class Hash
           matching_keys << key
         end
       end
-      return matching_keys
     end
   end
 end
