@@ -1,7 +1,7 @@
 require 'pry'
 class Hash
-  matching_keys = []
   def keys_of(*arguments)
+    matching_keys = []
     self.each do |key, value|
       arguments.each do |argument|
         if value == argument
